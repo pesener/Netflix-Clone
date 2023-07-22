@@ -1,7 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import HomeScreen from "./screens/HomeScreen";
+
 function App() {
   return (
     <div>
-      <h1 className="text-xl text-[#E50914]"> Netflix Clone </h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomeScreen />}></Route>
+      </Routes>
     </div>
   );
 }
