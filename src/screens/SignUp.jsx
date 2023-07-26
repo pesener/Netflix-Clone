@@ -63,7 +63,7 @@ const SignUp = () => {
                 </div>
                 <p className="py-8 ">
                   <span className="text-gray-400">
-                    Already subsucribed to Netflix ?{" "}
+                    Already subscribed to Netflix ?{" "}
                   </span>{" "}
                   <Link to="/login">Sign In</Link>
                 </p>
